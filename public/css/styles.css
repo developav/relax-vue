@@ -99,7 +99,7 @@ li {
     margin-bottom: 27px;
 }
 .section__group {
-    width: 76.8%;
+    max-width: 100%;
     padding-right: 4px;
 }
 .section__card{
@@ -164,7 +164,7 @@ li {
 /* ASIDE */
 
 .aside{
-    width: 23.2%;
+    width: 55%;
 }
 .aside__heading {
     letter-spacing: -0.5px;
