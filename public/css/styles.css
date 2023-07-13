@@ -28,14 +28,15 @@ li {
     margin: 0 auto;
 }
 .header{
-    padding-bottom: 45px;
+    padding-bottom: 88px;
     background-image: url('https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     position: relative;
-    margin-bottom: 43px;
     z-index: 1;
+    border: none;
+    outline: none;
 }
 .header::after{
     width: 100%;
@@ -47,6 +48,8 @@ li {
     position: absolute;
     opacity: 1;
     z-index: 3;
+    border: none;
+    outline: none;
 }
 .header__logo-img{
     padding-top: 28px;
@@ -99,7 +102,7 @@ li {
     margin-bottom: 27px;
 }
 .section__group {
-    max-width: 100%;
+    max-width: 70%;
     padding-right: 4px;
 }
 .section__card{
@@ -194,7 +197,7 @@ li {
     text-decoration: none;
 }
 .aside__item-img {
-    min-width: 70px;
+    max-width: 70px;
 }
 .aside__item-date{
     font-size: 12px;
